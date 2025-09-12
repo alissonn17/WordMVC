@@ -4,6 +4,7 @@ class Word {
     // Contador de words
     static word = 0;
 
+    // Construtor recebe palavra e type
     constructor(palavra, type){
         this.id = word + 1;
         this.palavra = palavra;

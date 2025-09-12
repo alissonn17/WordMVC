@@ -3,3 +3,32 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#wordDisplay{
+    display: none;
+}
+
+#wordForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
