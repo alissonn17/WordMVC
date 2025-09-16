@@ -2,6 +2,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(231, 231, 231);
+    justify-content: center;
+    flex-grow: 1 1 0;
+    height: 100vh;
 }
 
 header{
@@ -32,3 +36,4 @@ header ul li a{
     justify-content: center;
     flex-direction: column;
 }
+

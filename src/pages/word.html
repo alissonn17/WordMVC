@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
-    <script src="../controller/word.controller.js" defer></script>
+    <script type="module" src="../controller/word.controller.js" defer></script>
 
     <title>Word</title>
 </head>
@@ -23,12 +23,13 @@
         <input type="text" id="wordInput" name="wordInput" required>
         <label for="typeInput">Digite o tipo da palavra:</label>
         <input type="text" id="typeInput" name="typeInput" required>
-        <button type="submit">Enviar</button>
+        <button id="sub" type="submit">Enviar</button>
     </form>
 
     <div id="wordDisplay">
         <h1>Aqui está sua palavra:</h1>
-        <h2>Palavra</h2>
+        <h2 id="word"></h2>
+        <h3 id="type"></h3>
     </div>
 </body>
 </html>

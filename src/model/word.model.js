@@ -4,12 +4,15 @@ class Word {
     // Contador de words
     static word = 0;
 
+    static wordlist = [];
+
     // Construtor recebe palavra e type
     constructor(palavra, type){
         this.id = word + 1;
         this.palavra = palavra;
         this.type = type;
-        word++;
+        Word.word++;
+        Word.wordlist.push(this);
     }
 
     // Método retorna palavra
@@ -22,3 +25,5 @@ class Word {
         return this.type;
     }
 }
+
+export default Word;
